@@ -1,0 +1,122 @@
+
+.xsm-20{
+    width:20%;
+}
+.xsm-25{
+    width:25%;
+}
+.xsm-30{
+    width:33.33%;
+}
+.xsm-50{
+    width:50%;
+}
+.xsm-100{
+    width:100%;
+}
+/* small */
+@media screen and (min-width:640px){
+    .sm-20{
+    width:20%;
+}
+.sm-25{
+    width:25%;
+}
+.sm-30{
+    width:33.33%;
+}
+.sm-50{
+    width:50%;
+}
+.sm-75{
+    width: 75%;
+}
+.sm-100{
+    width:100%;
+}
+
+
+}
+/* mediam */
+@media screen and (min-width:768px){
+html{
+       font-size:50%;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    header p{
+        font-size:1.7rem;
+        font-weight: 300;
+
+    }
+    header #quote{
+       font-size: 1.5rem;
+       font-weight: 200;
+    }
+    .btnn button{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+}
+/* large */
+@media screen and (min-width:1024px) {
+
+    html{
+       font-size: 56.25%;
+    }
+     header h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    header p{
+        font-size: 2.75rem;
+        font-weight: 400;
+
+    }
+    header #quote{
+       font-size: 2rem;
+       font-weight: 200;
+    }
+    .btnn button{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    
+}
+/* X large */
+@media screen and (min-width:1280px) {
+    html{
+       font-size: 62.5%;
+    }
+     header h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    header p{
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+    header #quote{
+       font-size: 2.5rem;
+       font-weight: 500;
+    }
+    .btnn button{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+}
+
+/* @media  screen and(min-width:640px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+} */

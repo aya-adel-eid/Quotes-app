@@ -19,7 +19,8 @@ var quotes = [
   },
    {
     quote:"“You only live once, but if you do it right, once is enough.”",
-    name:"― Mae West"
+    name:"― Mae West",
+   
 
   }
   ,{
